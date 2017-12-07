@@ -1,4 +1,4 @@
-properties([[: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/sureshj1223/gp.git/'], pipelineTriggers([githubPush()])])
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/sureshj1223/gp.git/'], pipelineTriggers([githubPush()])])
 pipeline {
     agent any
     stages {
